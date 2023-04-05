@@ -1,0 +1,86 @@
+.inline-block {
+ display: inline-block;
+ vertical-align: top;   
+}
+.logo {
+ width: 23%;
+ padding: 1%;
+ text-align: center;
+}
+nav {
+ background-color: #982222;
+ height: 98px;
+ width: 1512px;
+ padding: 1%;
+}
+ul {
+ width: 50%;
+ margin-left: auto;
+ font-family: Inter;
+ font-size: 24px;
+ font-style: medium;
+}
+.heroImg {
+ height: 600px;
+ padding: 25px;
+}
+.content {
+ width: 500px;
+ margin: 0 auto;
+}
+footer {
+ background-color: #982222;
+ height: 280px;
+ width: 1512px;
+}
+ul {
+ display: inline-block;
+ vertical-align: top;
+}
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+li {
+ float: right;
+}
+body {
+ height: 3786px;
+ width: 1512px;
+}
+p.a {
+ font-family: Inter;
+ font-size: 24px;
+ font-style: medium;
+}
+p.b {
+ font-family: Inter;
+ font-size: 85px;
+ font-style: bold;
+}
+p.c {
+ font-family: Inter;
+ font-size: 24px;
+ font-style: medium;
+}
+p.d {
+ font-family: Inter;
+ font-size: 24px;
+ font-style: medium;
+}
+p.e {
+ font-family: Inter;
+ font-size: 40px;
+ font-style: semibold;
+}
+p.f {
+ font-family: Inter;
+ font-size: 24px;
+ font-style: medium; 
+}
+p.g {
+ font-family: Inter;
+ font-size: 40px;
+ font-style: medium;
+}
