@@ -10,7 +10,7 @@
 nav {
  background-color: #982222;
  height: 98px;
- width: 1512px;
+ width: 100%;
  padding: 1%;
 }
 ul {
@@ -23,6 +23,10 @@ ul {
 .heroImg {
  height: 600px;
  padding: 25px;
+}
+.profilepicture {
+    height: 100px;
+    width: 100px;
 }
 .content {
  width: 500px;
@@ -46,8 +50,8 @@ li {
  float: right;
 }
 body {
- height: 3786px;
- width: 1512px;
+ height: 100%;
+ width: 100%;
 }
 p.a {
  font-family: Inter;
