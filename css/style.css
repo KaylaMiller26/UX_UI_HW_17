@@ -1,10 +1,14 @@
 @import url(./variables.css);
 
 
+h1{
+    font-size: 85px;
+}
 
 body{
     margin: 0;
     font-family: 'Inter', sans-serif;
+    background: no-repeat;
 }
 
 .topNav{
@@ -13,8 +17,12 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    margin: auto;
 }
 
+.logo{
+    width: 48px;
+}
 
 nav a{
     text-decoration: none;
@@ -23,20 +31,45 @@ nav a{
 }
 
 nav a:hover{
-    color: black;
+    text-decoration: underline;
+    color: white;
+}
+
+nav a.active{
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
 }
     
+.headShot{
+    width: 365px;
+    padding: 34px 40px;
+}
 
+.hero{
+    padding: 80px 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1320px;
+    justify-content: center;
+    margin: auto;
+    column-gap: 20px;
+}
+
+.avatar{
+    width: 100%;
+}
+
+.heroContent{
+    max-width: 613px;
+}
 
 .inline-block {
  display: inline-block;
  vertical-align: top;   
 }
-.logo {
- width: 23%;
- padding: 1%;
- text-align: center;
-}
+
 nav {
  height: 98px;
  width: 100%;
